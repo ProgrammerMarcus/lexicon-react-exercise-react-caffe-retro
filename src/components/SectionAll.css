@@ -1,0 +1,56 @@
+.hot {
+    background-image: url("../assets/hot.jpg");
+}
+
+.juicy {
+    background-image: url("../assets/juicy.jpg");
+}
+
+.cozy {
+    background-image: url("../assets/cosy.jpg");
+}
+
+.section {
+    display: grid;
+    place-content: center;
+    gap: 2rem;
+    background-size: cover;
+    height: 100lvh;
+    .section-heading {
+        font-family: "Spirax", sans-serif;
+        color: rgb(180, 0, 0);
+        font-size: 8rem;
+        font-weight: bold;
+        text-align: center;
+    }
+    .section-quote {
+        background-color: rgb(180, 0, 0, 0.8);
+        font-size: 2rem;
+        color: white;
+        font-family: "Poiret One", sans-serif;
+        text-align: center;
+        padding: 1.5rem;
+    }
+    .left {
+        position: relative;
+        left: 4rem;
+    }
+    .right {
+        position: relative;
+        right: 4rem;
+    }
+    .section-table {
+        background-color: black;
+        display: grid;
+        grid-template: 1fr 1fr / 1fr 1fr;
+        padding: 2rem 4rem;
+        .cell {
+            color: white;
+            font-family: "Poiret One", sans-serif;
+            font-size: 2rem;
+        }
+        .cell:nth-child(2n) {
+            margin: auto 0 auto auto;
+        }
+    }
+}

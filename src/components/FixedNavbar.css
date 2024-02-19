@@ -1,0 +1,15 @@
+.fixed-navbar {
+    background-color: rgba(40, 0, 10, 0.8);
+    display: grid;
+    grid-auto-flow: column;
+    place-content: center;
+    gap: 4rem;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    .navbar-link {
+        font-size: 4rem;
+        font-family: "Spirax", sans-serif;
+        color: white;
+    }
+}
