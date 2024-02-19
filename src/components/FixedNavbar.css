@@ -13,3 +13,13 @@
         color: white;
     }
 }
+
+@media screen and (max-width: 600px) {
+    .fixed-navbar {
+        gap: 2rem;
+        padding: 0.5rem;
+        .navbar-link {
+            font-size: 1.5rem;
+        }
+    }
+}

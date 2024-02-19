@@ -4,9 +4,9 @@ export function FixedNavbar() {
     return (
       <>
         <div className="fixed-navbar">
-          <a href="/" className="navbar-link">Hot</a>
-          <a href="/" className="navbar-link">Juicy</a>
-          <a href="/" className="navbar-link">Cosy</a>
+          <a href="#hot" className="navbar-link">Hot</a>
+          <a href="#juicy" className="navbar-link">Juicy</a>
+          <a href="#cozy" className="navbar-link">Cosy</a>
         </div>
       </>
     );

@@ -3,7 +3,7 @@ import "./SectionAll.css";
 export function SectionHot() {
     return (
         <>
-            <section className="section hot">
+            <section className="section hot" id="hot">
                 <h2 className="section-heading">Hot</h2>
                 <span className="section-quote right">Hot freshly ground black coffee or a cup of exquisite tea?</span>
                 <span className="section-quote left">We give you that perfect cup every time.</span>
