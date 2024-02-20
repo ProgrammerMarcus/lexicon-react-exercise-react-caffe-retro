@@ -1,4 +1,3 @@
-import "./components/FixedNavbar"
 import FixedNavbar from "./components/FixedNavbar";
 import SectionHot from "./components/SectionHot";
 import SectionJuicy from "./components/SectionJuicy";
